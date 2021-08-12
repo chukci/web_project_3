@@ -1,0 +1,9 @@
+.cover__link {
+    display: block;
+    transition: opacity .3s ease;
+    position: relative;
+}
+
+.cover__link:hover .cover__overlay {
+    opacity: .7;
+}

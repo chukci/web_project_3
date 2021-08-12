@@ -17,6 +17,8 @@ This is a project about traveling across the US. The educational project for cre
 
 When creating was used VS Code, Figma
 
+https://chukci.github.io/web_project_3/
+
 
 
 

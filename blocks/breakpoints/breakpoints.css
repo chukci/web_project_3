@@ -309,7 +309,7 @@
 @media screen and (max-width: 468px) {
     .header__logo {
         max-height: 37.4px;
-        max-width: 167.3367px
+        max-width: 167.3367px;
     }
 }
 
@@ -385,7 +385,6 @@
     .intro__title {
         font-size: 2.4rem;
         line-height: 1.08;
-        ;
     }
 }
 
@@ -578,7 +577,6 @@
         margin-right: 9.635%;
         font-size: 1.79rem;
         line-height: 1.21;
-        ;
     }
 }
 
@@ -586,7 +584,6 @@
     .lead__subtitle {
         font-size: 1.36rem;
         line-height: 1.23;
-        ;
     }
 }
 
@@ -594,7 +591,6 @@
     .lead__subtitle {
         font-size: 1.024rem;
         line-height: 1.23;
-        ;
     }
 }
 

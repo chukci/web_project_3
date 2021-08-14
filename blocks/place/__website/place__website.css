@@ -6,21 +6,3 @@
     flex-direction: column;
     align-self: flex-end;
 }
-
-@media screen and (max-width: 475px) {
-    .place__website {
-        margin: 0px 16px 30px;
-        order: -1;
-        max-width: 288px;
-        align-self: stretch;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__website {
-        margin: 0px 16px 30px;
-        order: -1;
-        max-width: 288px;
-        align-self: stretch;
-    }
-}

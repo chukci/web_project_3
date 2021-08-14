@@ -5,26 +5,10 @@
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
-    line-height: 140%;
+    line-height: 1.4;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #fff;
     text-align: left;
     max-width: 18.375em;
-}
-
-@media screen and (max-width: 768px) {
-    .lead__caption {
-        max-width: 179.39px;
-        margin-left: 23.66px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__caption {
-        max-width: 182px;
-        font-size: 0.625rem;
-        line-height: 140%;
-        margin-left: 16px;
-    }
 }

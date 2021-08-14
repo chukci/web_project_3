@@ -2,21 +2,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
-    line-height: 122%;
+    line-height: 1.22;
     text-decoration-line: underline;
     color: #FFFFFF;
-}
-
-@media screen and (max-width: 475px) {
-    .place__link {
-        margin: 0;
-        max-width: 288px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__link {
-        margin: 0;
-        max-width: 288px;
-    }
 }

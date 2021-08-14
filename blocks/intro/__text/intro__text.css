@@ -10,22 +10,11 @@
 .intro__text:first-of-type {
     margin-bottom: 32px;
     font-size: 1.5rem;
-    line-height: 142%;
+    line-height: 1.42;
 }
 
 .intro__text:last-of-type {
     margin-bottom: 33px;
     font-size: 1rem;
-    line-height: 163%;
-}
-
-@media screen and (max-width: 320px) {
-    .intro__text:first-of-type {
-        line-height: 125%;
-    }
-    .intro__text:last-of-type {
-        margin-bottom: 34px;
-        line-height: 150%;
-        font-size: 0.75rem;
-    }
+    line-height: 1.63;
 }

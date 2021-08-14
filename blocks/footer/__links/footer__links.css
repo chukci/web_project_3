@@ -4,21 +4,3 @@
     justify-content: flex-start;
     flex-grow: 0;
 }
-
-@media screen and (max-width: 475px) {
-    .footer__links {
-        display: flex;
-        flex-direction: column;
-        justify-items: flex-start;
-        order: -1;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .footer__links {
-        display: flex;
-        flex-direction: column;
-        justify-items: flex-start;
-        order: -1;
-    }
-}

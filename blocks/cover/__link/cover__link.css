@@ -1,7 +1,16 @@
 .cover__link {
-    display: block;
+    display: flex;
+    flex-direction: column;
     transition: opacity .3s ease;
     position: relative;
+    background-image: url(../../../images/__background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 24%;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: center;
+    max-width: 100%;
 }
 
 .cover__link:hover .cover__overlay {

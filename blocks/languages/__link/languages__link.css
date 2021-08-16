@@ -12,3 +12,24 @@
 .languages__link:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 618px) {
+  .languages__link {
+    font-size: 1.375rem;
+    line-height: 1.17;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .languages__link {
+    font-size: 1.25rem;
+    line-height: 1.17;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .languages__link {
+    font-size: 1.125rem;
+    line-height: 1.11;
+  }
+}

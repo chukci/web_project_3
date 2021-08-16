@@ -11,3 +11,32 @@
     color: white;
     text-align: center;
 }
+
+@media screen and (max-width: 680px) {
+    .cover__subtitle {
+        font-size: 0.995rem;
+        max-width: 278.8px;
+    }
+}
+
+@media screen and (max-width: 608px) {
+    .cover__subtitle {
+        font-size: 0.889rem;
+        max-width: 249.28px;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .cover__subtitle {
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        line-height: 1.14;
+        max-width: 288px;
+        margin: 16px 16px 0;
+    }
+}

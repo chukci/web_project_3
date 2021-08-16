@@ -8,4 +8,43 @@
     font-size: 4.5rem;
     line-height: 1.06;
     color: #FFFFFF;
+    max-width: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .place__title {
+        font-size: 2.863rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: 2.625rem;
+        line-height: 1.10;
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .place__title {
+        font-size: 2.125rem;
+        line-height: 1.10;
+        max-width: 239.058px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .place__title {
+        margin: 0px 16px 30px;
+        font-size: 2rem;
+        line-height: 1.09;
+        order: -1;
+        max-width: 288px;
+    }
 }

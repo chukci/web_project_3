@@ -13,3 +13,15 @@
 .footer1__link-item:last-of-type {
     margin-right: 0;
 }
+
+@media screen and (max-width: 475px) {
+    .footer__link-item {
+        margin-bottom: 32px;
+        margin-right: 0;
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    .footer__link-item:last-of-type {
+        margin-bottom: 0px;
+    }
+}

@@ -18,3 +18,14 @@
     font-size: 1rem;
     line-height: 1.63;
 }
+
+@media screen and (max-width: 320px) {
+    .intro__text:first-of-type {
+        line-height: 1.25;
+    }
+    .intro__text:last-of-type {
+        margin-bottom: 34px;
+        line-height: 1.5;
+        font-size: 0.75rem;
+    }
+}

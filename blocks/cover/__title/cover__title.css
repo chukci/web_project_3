@@ -9,3 +9,33 @@
     text-align: center;
     color: #FFFDFD;
 }
+@media screen and (max-width: 680px) {
+    .cover__title {
+        font-size: 3.938rem;
+    }
+}
+@media screen and (max-width: 608px) {
+    .cover__title {
+        font-size: 3.213rem;
+        line-height: 1.07;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .cover__title {
+        font-size: 2.359rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .cover__title {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        font-size: 1.9rem;
+        line-height: 1.06;
+    }
+}

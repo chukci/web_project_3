@@ -2,3 +2,24 @@
     max-height: 44px;
     max-width: 190px;
 }
+
+@media screen and (max-width: 618px) {
+    .header__logo {
+        max-height: 40.7px;
+        max-width: 178.667px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .header__logo {
+        max-height: 37.4px;
+        max-width: 167.3367px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        max-height: 36px;
+        max-width: 156px;
+    }
+}

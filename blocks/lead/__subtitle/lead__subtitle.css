@@ -10,3 +10,48 @@
     margin: 0 auto 64px;
     font-size: 1.875rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        max-width: 611.12px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .lead__subtitle {
+        margin-left: 9.635%;
+        margin-right: 9.635%;
+        font-size: 1.79rem;
+        line-height: 1.21;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .lead__subtitle {
+        font-size: 1.36rem;
+        line-height: 1.23;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .lead__subtitle {
+        font-size: 1.024rem;
+        line-height: 1.23;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 1rem;
+        line-height: 1.25;
+        max-height: 40px;
+        margin-bottom: 40px;
+    }
+}

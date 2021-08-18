@@ -6,6 +6,7 @@
 .cover {
     max-width: 1184px;
     margin: 92px 48px 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,7 +21,7 @@
     .cover {
         max-width: 768px;
         margin-top: 89px;
-        max-height: 480px;
+        min-height: 480px;
     }
 }
 
@@ -28,24 +29,56 @@
     .cover {
         max-width: 700px;
         margin-top: 70px;
+        min-height: 437.5px;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    .cover {
+        max-width: 652px;
+        min-height: 407px;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .cover {
+        max-width: 624px;
+        min-height: 390px;
     }
 }
 
 @media screen and (max-width: 568px) {
     .cover {
         max-width: 568px;
+        min-height: 355px;
+    }
+}
+
+@media screen and (max-width: 508px) {
+    .cover {
+        max-width: 508px;
+        min-height: 317px;
     }
 }
 
 @media screen and (max-width: 464px) {
     .cover {
         max-width: 464px;
+        min-height: 290px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cover {
+        max-width: 400px;
+        min-height: 250px;
     }
 }
 
 @media screen and (max-width: 384px) {
     .cover {
         max-width: 384px;
+        min-height: 240px;
     }
 }
 
@@ -53,5 +86,6 @@
     .cover {
         margin-top: 64px;
         max-width: 320px;
+        min-height: 200px;
     }
 }

@@ -2,7 +2,6 @@
     grid-area: copyright;
     padding: 0;
     margin: 0;
-    display: block;
     text-align: right;
     font-family: Inter;
     font-style: normal;
@@ -12,9 +11,8 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 550px) {
     .footer__copyright {
-        text-align: right;
         display: flex;
         margin-top: 48px;
         max-width: 165px;

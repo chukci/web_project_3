@@ -4,13 +4,7 @@
     grid-row: 2/5;
 }
 
-@media screen and (max-width: 475px) {
-    .place__image {
-        margin-bottom: 32px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
     .place__image {
         margin-bottom: 32px;
     }

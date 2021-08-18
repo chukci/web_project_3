@@ -1,7 +1,11 @@
 @import url(../link/link.css);
+@import url(./__item/languages__item.css);
 @import url(./__link/languages__link.css);
 @import url(./__link/_active/languages__link_active.css);
 .languages {
     display: flex;
     justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }

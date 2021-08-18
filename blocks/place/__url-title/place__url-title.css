@@ -16,11 +16,8 @@
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 550px) {
     .place__url-title {
         margin: 0px 0 12px;
-        font-size: .75rem;
-        line-height: 1;
-        max-width: 288px;
     }
 }

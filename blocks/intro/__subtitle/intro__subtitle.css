@@ -1,16 +1,16 @@
-.intro__text {
+.intro__subtitle {
     padding: 0;
-    margin: 0 0 33px;
+    margin: 0 0 32px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     color: #fff;
-    font-size: 1rem;
-    line-height: 1.63;
+    font-size: 1.5rem;
+    line-height: 1.42;
 }
 
 @media screen and (max-width: 320px) {
-    .intro__text {
-        margin-bottom: 34px;
+    .intro__subtitle {
+        line-height: 1.25;
     }
 }

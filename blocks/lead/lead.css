@@ -1,5 +1,6 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
+@import url(./__figure/lead__figure.css);
 @import url(./__caption/lead__caption.css);
 @import url(./__image/lead__image.css);
 .lead {
@@ -27,22 +28,20 @@
 
 @media screen and (max-width: 768px) {
     .lead {
-        max-width: 757px;
-        margin-left: 0px;
-        margin-right: 11px;
+        max-width: 768px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
 @media screen and (max-width: 750px) {
     .lead {
         max-width: 750px;
-        margin-right: 0px;
     }
 }
 
 @media screen and (max-width: 700px) {
     .lead {
         max-width: 100%;
-        margin-right: 0px;
     }
 }

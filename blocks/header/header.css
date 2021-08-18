@@ -37,7 +37,6 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        max-height: 44px;
         max-width: 720px;
         margin-right: 24px;
         margin-left: 24px;
@@ -46,7 +45,6 @@
 
 @media screen and (max-width: 618px) {
     .header {
-        max-height: 40.7px;
         max-width: 576px;
         margin-right: 20.7px;
         margin-left: 20.7px;
@@ -55,7 +53,6 @@
 
 @media screen and (max-width: 468px) {
     .header {
-        max-height: 37.3px;
         max-width: 432px;
         margin-right: 17.4px;
         margin-left: 17.4px;
@@ -64,7 +61,6 @@
 
 @media screen and (max-width: 320px) {
     .header {
-        max-height: 36px;
         max-width: 288px;
     }
 }

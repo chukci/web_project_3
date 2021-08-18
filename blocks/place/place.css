@@ -2,6 +2,7 @@
 @import url(./__website/place__website.css);
 @import url(./__url-title/place__url-title.css);
 @import url(./__link/place__link.css);
+@import url(./__text/place__text.css);
 @import url(./__paragraph/place__paragraph.css);
 @import url(./__image/place__image.css);
 .place {
@@ -31,16 +32,7 @@
     }
 }
 
-@media screen and (max-width: 475px) {
-    .place {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        margin-bottom: 48px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
     .place {
         display: flex;
         flex-direction: column;

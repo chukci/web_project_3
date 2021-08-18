@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0 0 48px;
     grid-area: title;
-    font-family: "Inter-Black";
+    font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 4.5rem;
@@ -31,20 +31,12 @@
     }
 }
 
-@media screen and (max-width: 540px) {
-    .place__title {
-        font-size: 2.125rem;
-        line-height: 1.10;
-        max-width: 239.058px;
-    }
-}
-
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 550px) {
     .place__title {
         margin: 0px 16px 30px;
         font-size: 2rem;
         line-height: 1.09;
         order: -1;
-        max-width: 288px;
+        max-width: 518px;
     }
 }

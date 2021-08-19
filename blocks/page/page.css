@@ -1,7 +1,7 @@
 @import url(./__wrapper/page__wrapper.css);
 .page {
   background-color: #2A2C2F;
-  font-family: Inter, sans-serif;
+  font-family: Inter, 'Arial', 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
   -moz-osx-font-smoothing: grayscale;
